@@ -39,4 +39,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ## Note
 
-###### Just have fun bruh.
+###### Welcome back to SYD bruh.
