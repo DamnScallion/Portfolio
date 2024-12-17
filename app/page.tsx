@@ -6,6 +6,7 @@ import { FaHome } from 'react-icons/fa';
 
 import dynamic from 'next/dynamic';
 import { navItems } from '@/data';
+import Clients from '@/components/Clients';
 
 const RecentProjects = dynamic(() => import('@/components/RecentProjects'), { ssr: false });
 
@@ -17,6 +18,7 @@ export default function Home() {
         <Hero />
         <Grid />
         <RecentProjects />
+        <Clients />
 			</div>
     </main>
   );
