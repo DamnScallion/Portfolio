@@ -8,6 +8,7 @@ import dynamic from 'next/dynamic';
 import { navItems } from '@/data';
 import Clients from '@/components/Clients';
 import Experience from '@/components/Experience';
+import Approach from '@/components/Approach';
 
 const RecentProjects = dynamic(() => import('@/components/RecentProjects'), { ssr: false });
 
@@ -21,6 +22,7 @@ export default function Home() {
         <RecentProjects />
         <Clients />
         <Experience />
+        <Approach />
 			</div>
     </main>
   );
